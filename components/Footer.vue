@@ -9,5 +9,9 @@
         <nuxt-link to="/page3">Page 3</nuxt-link>
         <nuxt-link to="/page4">Page 4</nuxt-link>
     </nav>
+    <div>
+        <div class="btn">Hi</div>
+        <button class="bg-sky-600 text-white px-6 py-2"> Say Hi</button>
+    </div>
     </footer>
 </template>
