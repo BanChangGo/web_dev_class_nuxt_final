@@ -1,24 +1,14 @@
 <template>
-    <div class="h-64 dark:text-slate-200">
-  <header
-    class="container mx-auto flex w-full items-center justify-between py-4 px-6"
-  >
-    <a href="#">
-      <div
-        class="w-full text-center text-lg font-extrabold sm:w-fit sm:text-left"
-      >
-        <span class="text-violet-500">Unique</span>
-        <span class="dark:text-slate-400">Fund</span>
-      </div>
-    </a>
-    <nav class="hidden bg-white text-base dark:bg-slate-900 sm:block">
+    <div class=" dark:text-slate-200">
+
+    <nav class="hidden bg-white text-base dark:bg-slate-900 sm:block rounded-lg">
       <ul class="flex items-center space-x-2">
         <li class="group relative">
           <a
-            class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
+            class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50 "
             href="/"
           >
-            Home
+            About
           </a>
         </li>
         <li class="group relative">
@@ -26,7 +16,7 @@
             class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
             href="#"
           >
-            Solutions
+            Classes
           </a>
           <ul
             class="invisible absolute z-30 space-y-2 rounded-lg border border-slate-50 bg-white p-4 opacity-0 shadow-xl transition-opacity delay-75 ease-in-out group-hover:visible group-hover:opacity-100 dark:border-slate-800 dark:bg-slate-900"
@@ -36,7 +26,7 @@
                 class="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
                 href="#"
               >
-                Business Line of Credit
+                INTC 3243
               </a>
             </li>
             <li>
@@ -44,7 +34,7 @@
                 class="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
                 href="#"
               >
-                SBA Loan
+                MATH 3003
               </a>
             </li>
             <li>
@@ -52,7 +42,7 @@
                 class="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
                 href="#"
               >
-                Revenue Based Financing
+                LANG 0663 
               </a>
             </li>
             <li>
@@ -60,7 +50,7 @@
                 class="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
                 href="#"
               >
-                Invoice Factoring
+                BMGT 3543
               </a>
             </li>
           </ul>
@@ -70,15 +60,15 @@
             class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
             href="/about"
           >
-            About
+            Nextworks
           </a>
         </li>
         <li class="group relative">
           <a
-            class="block whitespace-nowrap px-2 py-2 text-sm text-slate-900 no-underline transition hover:text-slate-900 dark:text-slate-50 dark:hover:text-slate-50"
-            href="/contact"
+            class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
+            href="/about"
           >
-            Contact
+            Pictures
           </a>
         </li>
       </ul>
@@ -198,6 +188,6 @@
         </li>
       </ul>
     </nav>
-  </header>
+
 </div>
 </template>

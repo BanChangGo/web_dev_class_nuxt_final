@@ -2,8 +2,7 @@
 export default {
   content: [],
   theme: {
-    extend: {},
-    colors: {
+    extend: {colors: {
       'mountain-meadow': {
         DEFAULT: '#10B981',
         50: '#8CF5D2',
@@ -32,6 +31,20 @@ export default {
         900: '#4C0707',
         950: '#320404'
       },
+      'dodger-blue': {
+        DEFAULT: '#3B82F6',
+        50: '#3B82F6',
+        100: '#2071F5',
+        200: '#0A56D3',
+        300: '#07409E',
+        400: '#052A68',
+        500: '#021532',
+        600: '#000000',
+        700: '#000000',
+        800: '#000000',
+        900: '#000000',
+        950: '#000000'
+      },
       'genoa': {
         DEFAULT: '#166064',
         50: '#57D3DA',
@@ -45,8 +58,46 @@ export default {
         800: '#000000',
         900: '#000000'
       },
+    }},
+    fontFamily: {
+      'body': [
+    'Inter', 
+    'ui-sans-serif', 
+    'system-ui', 
+    '-apple-system', 
+    'system-ui', 
+    'Segoe UI', 
+    'Roboto', 
+    'Helvetica Neue', 
+    'Arial', 
+    'Noto Sans', 
+    'sans-serif', 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol', 
+    'Noto Color Emoji'
+  ],
+      'sans': [
+    'Inter', 
+    'ui-sans-serif', 
+    'system-ui', 
+    '-apple-system', 
+    'system-ui', 
+    'Segoe UI', 
+    'Roboto', 
+    'Helvetica Neue', 
+    'Arial', 
+    'Noto Sans', 
+    'sans-serif', 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol', 
+    'Noto Color Emoji'
+  ]
     }
+    
   },
+  
   plugins: [],
 }
 
