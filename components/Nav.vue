@@ -2,74 +2,47 @@
     <div class=" dark:text-slate-200">
 
     <nav class="hidden bg-white text-base dark:bg-slate-900 sm:block rounded-lg">
-      <ul class="flex items-center space-x-2">
+      <ul class="flex flex-col items-center space-x-2 md:flex-row">
         <li class="group relative">
-          <a
-            class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50 "
-            href="/"
-          >
+          <nuxt-link class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50" to="/about">
             About
-          </a>
+          </nuxt-link>
         </li>
         <li class="group relative">
-          <a
-            class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
-            href="#"
-          >
+          <div class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50">
             Classes
-          </a>
+          </div>
           <ul
             class="invisible absolute z-30 space-y-2 rounded-lg border border-slate-50 bg-white p-4 opacity-0 shadow-xl transition-opacity delay-75 ease-in-out group-hover:visible group-hover:opacity-100 dark:border-slate-800 dark:bg-slate-900"
           >
             <li>
-              <a
-                class="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
-                href="#"
-              >
+              <nuxt-link class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50" to="/page1">
                 INTC 3243
-              </a>
+              </nuxt-link>
             </li>
             <li>
-              <a
-                class="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
-                href="#"
-              >
+              <nuxt-link class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50" to="/page2">
                 MATH 3003
-              </a>
+              </nuxt-link>
             </li>
             <li>
-              <a
-                class="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
-                href="#"
-              >
+              <nuxt-link class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50" to="/page3">
                 LANG 0663 
-              </a>
+              </nuxt-link>
             </li>
             <li>
-              <a
-                class="undefined block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
-                href="#"
-              >
+              <nuxt-link class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50" to="/page4">
                 BMGT 3543
-              </a>
+              </nuxt-link>
+            
             </li>
           </ul>
         </li>
+        
         <li class="group relative">
-          <a
-            class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
-            href="/about"
-          >
-            Nextworks
-          </a>
-        </li>
-        <li class="group relative">
-          <a
-            class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50"
-            href="/about"
-          >
+          <nuxt-link class="block whitespace-nowrap px-2 py-2 text-sm text-slate-400 no-underline transition hover:text-slate-900 dark:hover:text-slate-50" to="/pictures">
             Pictures
-          </a>
+          </nuxt-link>  
         </li>
       </ul>
     </nav>
